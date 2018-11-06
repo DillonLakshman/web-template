@@ -9,5 +9,54 @@
     font-size: 3rem;
     letter-spacing: 1rem;
     left: 0;
-    top: 7rem;
+    top: 16rem;
+    color: white;
+}
+
+.header-secondary-text {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.01rem;
+    left: 1rem;
+    top: 0.5rem;
+    color: white;
+    margin-right: 2rem;
+}
+
+
+.learn-more-button{
+    background-color: #CCC7B1;
+    min-width: 12rem;
+    padding: 14px 50px;
+    font-size: 0.8rem;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    // margin: 2rem;    
+    margin-top: 8rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.learn-more-button:hover{
+    background-color: #CCC7B100;
+    padding: 14px 50px;
+    font-size: 0.8rem;
+    color: white;
+    border: 1px solid #CCC7B1;
+    border-radius: 100px;
+    margin: 2rem;
+    margin-top: 8rem;
+    font-weight: 600;
+}
+
+.nav-bar{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    left: 0;
+    top: 2rem;
+    color: white; 
 }
