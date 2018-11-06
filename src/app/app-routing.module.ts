@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { CardsFullSectionComponent } from './cards-full-section/cards-full-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'cards', component: CardsFullSectionComponent }
+  { path: 'footer', component: FooterComponent }
 ];
 
 @NgModule({
