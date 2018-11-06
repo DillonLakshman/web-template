@@ -29,4 +29,17 @@
     margin: 2rem;
     margin-top: 8rem;
     font-weight: 600;
+    transition: 0.4s;
+}
+
+.primary-button:hover{
+    background-color: #CCC7B100;
+    padding: 14px 50px;
+    font-size: 0.8rem;
+    color: white;
+    border: 1px solid #CCC7B1;
+    border-radius: 100px;
+    margin: 2rem;
+    margin-top: 8rem;
+    font-weight: 600;
 }
