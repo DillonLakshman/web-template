@@ -5,7 +5,7 @@ import { CardsFullSectionComponent } from './cards-full-section/cards-full-secti
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: '/cards', component: CardsFullSectionComponent }
+  { path: 'cards', component: CardsFullSectionComponent }
 ];
 
 @NgModule({
